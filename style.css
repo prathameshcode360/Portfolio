@@ -1,12 +1,4 @@
-/* ===========================
-   Google Font
-=========================== */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
-/* ===========================
-   Reset
-=========================== */
 
 * {
   margin: 0;
@@ -45,10 +37,6 @@ button {
   border: none;
 }
 
-/* ===========================
-   Reusable Classes
-=========================== */
-
 section,
 aside {
   padding: 80px 10%;
@@ -61,9 +49,7 @@ aside {
   color: #222;
 }
 
-/* ===========================
-   Navbar
-=========================== */
+/* Navbar */
 
 header {
   position: sticky;
@@ -108,9 +94,7 @@ header {
   font-size: 1.7rem;
 }
 
-/* ===========================
-   Hero
-=========================== */
+/* Hero */
 
 .hero {
   min-height: 90vh;
@@ -172,9 +156,7 @@ header {
   border: 8px solid #2563eb;
 }
 
-/* ===========================
-   About
-=========================== */
+/* About */
 
 .about-container {
   display: flex;
@@ -202,9 +184,7 @@ header {
   margin-bottom: 15px;
 }
 
-/* ===========================
-   Services
-=========================== */
+/* Services */
 
 .service-container {
   display: grid;
@@ -246,9 +226,7 @@ header {
   border-radius: 8px;
 }
 
-/* ===========================
-   Skills
-=========================== */
+/* Skills */
 
 .skills-container {
   display: grid;
@@ -275,9 +253,7 @@ header {
   margin-bottom: 10px;
 }
 
-/* ===========================
-   Education
-=========================== */
+/* Education */
 
 .education-container {
   display: grid;
@@ -307,9 +283,7 @@ header {
   color: #2563eb;
 }
 
-/* ===========================
-   Contact
-=========================== */
+/* Contact */
 
 .contact {
   background: white;
@@ -362,9 +336,7 @@ header {
   transform: scale(1.2);
 }
 
-/* ===========================
-   Footer
-=========================== */
+/* Footer */
 
 footer {
   background: #111;
@@ -373,9 +345,7 @@ footer {
   padding: 25px;
 }
 
-/* ===========================
-   Responsive Design
-=========================== */
+/* Responsive Design */
 
 @media (max-width: 992px) {
   .hero,

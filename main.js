@@ -1,6 +1,4 @@
-// =========================================
 // Mobile Navigation Menu
-// =========================================
 
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
@@ -9,9 +7,7 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// =========================================
 // Close Mobile Menu After Clicking a Link
-// =========================================
 
 const links = document.querySelectorAll(".nav-links a");
 
@@ -21,9 +17,7 @@ links.forEach((link) => {
   });
 });
 
-// =========================================
 // Hero Button
-// =========================================
 
 const heroButton = document.querySelector(".hero-btn");
 
@@ -31,9 +25,7 @@ heroButton.addEventListener("click", () => {
   document.getElementById("services").scrollIntoView({ behavior: "smooth" });
 });
 
-// =========================================
 // Typing Effect
-// =========================================
 
 const typingElement = document.getElementById("typing");
 
@@ -74,9 +66,7 @@ function typeEffect() {
 
 typeEffect();
 
-// =========================================
 // Service Buttons
-// =========================================
 
 const serviceButtons = document.querySelectorAll(".service-card button");
 
@@ -86,9 +76,7 @@ serviceButtons.forEach((button) => {
   });
 });
 
-// =========================================
 // Contact Form
-// =========================================
 
 const contactForm = document.querySelector(".contact-form");
 
